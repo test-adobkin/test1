@@ -8,6 +8,7 @@ kramdown:
     auto_ids: false
     #template: string://abc
     enable_codearay: true
+    link_defs: "{foo: ['url', 'title']}"
     
 #kramdown:
     #template: "foo"

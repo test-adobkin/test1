@@ -2,7 +2,9 @@
 layout: post
 title: Optimize for Happiness
 --- 
-hello123
+hello5 [foo]
+
+
 
   def abc
     a = foo
