@@ -3,4 +3,4 @@ pygments: true
 
 kramdown:
     auto_ids: false
-    template: string://abc
+    template: /etc/mime.types
