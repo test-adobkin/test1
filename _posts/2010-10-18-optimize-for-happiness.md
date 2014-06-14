@@ -1,15 +1,8 @@
 ---
 layout: post
 title: Optimize for Happiness
---- name:newsdata pipeline:erb
-<div class='news-item'>
-<div class="news-date float-right">
- 
-</div>
-<%= 345 %>
-</div>
-
-<% end %>
+--- 
+hello123
 
 {{ page.title }}
 ================
