@@ -4,4 +4,4 @@ safe: true
 
 kramdown:
     auto_ids: false
-    template: /etc/issue
+    template: string://abc
