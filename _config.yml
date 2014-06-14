@@ -6,7 +6,8 @@ foo: bar
 
 kramdown:
     auto_ids: false
-    template: string://abc
+    #template: string://abc
+    enable_codearay: true
     
-kramdown:
-    template: "\x00foo"
+#kramdown:
+    #template: "foo"

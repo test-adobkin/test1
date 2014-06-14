@@ -4,6 +4,18 @@ title: Optimize for Happiness
 --- 
 hello123
 
+  def abc
+    a = foo
+    printf("bar")
+    
+    
+    
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 {{ page.title }}
 ================
 
