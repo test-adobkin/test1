@@ -1,4 +1,4 @@
-markdown: kramdown
+markdown: maruku
 pygments: true
 safe: true
 
@@ -8,7 +8,11 @@ kramdown:
     auto_ids: false
     #template: string://abc
     enable_codearay: true
-    link_defs: "{foo: ['url', 'title']}"
+    link_defs: "--- !ruby/object:File\nfoo: bar"
+    
+maruku:
+  foo: bar
+  use_tex: true
     
 #kramdown:
     #template: "foo"

@@ -2,6 +2,9 @@
 layout: post
 title: Optimize for Happiness
 --- 
+
+$$f(x) = \frac{\sin x}{\cos x}$$
+
 hello5 [foo]
 
 
