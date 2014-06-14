@@ -1,4 +1,2 @@
-gems:
-  - jekyll-redirect-from
-
-markdown: kramdown
+markdown: rdiscount
+pygments: true
