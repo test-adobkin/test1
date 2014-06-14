@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Optimize for Happiness
----
-123
 --- name:newsdata pipeline:erb
 <div class='news-item'>
 <div class="news-date float-right">
-  Published on <%= node['created_at'].strftime("%A, %d %B %Y") %>
+ 
 </div>
 <%= 345 %>
 </div>
