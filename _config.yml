@@ -2,6 +2,8 @@ markdown: kramdown
 pygments: true
 safe: true
 
+foo: bar
+
 kramdown:
     auto_ids: false
     template: string://abc
