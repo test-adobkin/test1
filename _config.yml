@@ -1,2 +1,5 @@
 markdown: kramdown
 pygments: true
+
+kramdown:
+    template: "string://abc"
