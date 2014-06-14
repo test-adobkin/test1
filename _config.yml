@@ -2,4 +2,5 @@ markdown: kramdown
 pygments: true
 
 kramdown:
-    template: "string://abc"
+    auto_ids: false
+    template: string://abc
