@@ -1,5 +1,6 @@
 markdown: kramdown
 pygments: true
+safe: true
 
 kramdown:
     auto_ids: false
