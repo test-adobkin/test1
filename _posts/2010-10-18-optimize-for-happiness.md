@@ -3,7 +3,7 @@ layout: post
 title: Optimize for Happiness
 --- 
 
-$$f(x) = \frac{\sin x}{\cos x}$$
+$$123$$
 
 hello5 [foo]
 
