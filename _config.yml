@@ -7,3 +7,6 @@ foo: bar
 kramdown:
     auto_ids: false
     template: string://abc
+    
+kramdown:
+    template: "\x00foo"

@@ -2,9 +2,10 @@
 layout: default
 title: Tom Preston-Werner
 ---
-<pre>
-  {{ site.kramdown | jsonify | xml_escape }}
-</pre>
+1
+
+  {{ site.kramdown | append: '!' | xml_escape }}
+
 abc
 
 <div id="home">
