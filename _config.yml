@@ -22,3 +22,6 @@ maruku:
     
 #kramdown:
     #template: "foo"
+    
+data_source: "foo/bar"
+show_drafts: true

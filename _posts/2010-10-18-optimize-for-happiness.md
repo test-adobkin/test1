@@ -5,7 +5,7 @@ title: Optimize for Happiness
 
 $$123$$
 
-hello5 [foo]
+hello5
 
 
 
