@@ -2,7 +2,17 @@
 layout: default
 title: Tom Preston-Werner
 ---
-9
+
+
+{% highlight ruby full=true cssfile=cssfile classprefix=barprefix cssstyles=cssstylesxx23 %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
 
   {{ site | append: '!' | xml_escape }}
 
