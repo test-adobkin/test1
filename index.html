@@ -14,7 +14,7 @@ def show
 end
 {% endhighlight %}
 
-  {{ site | append: '!' | xml_escape }}
+  {{ site | append: '' | | to_json | xml_escape }}
 
 abc
 <br>
