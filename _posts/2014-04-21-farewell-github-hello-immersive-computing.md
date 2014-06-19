@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: acct
 title: Farewell GitHub, Hello Immersive Computing
 ---
 
