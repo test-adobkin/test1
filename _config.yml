@@ -1,7 +1,9 @@
-markdown: maruku
-pygments: true
+markdown: redcarpet
+#pygments: true
+highlighter: pygments
 safe: true
 layouts: "../../../../../../../../../../../../../../usr/include/linux"
+#encoding: Shift_JIS
 
 foo: bar
 
@@ -24,5 +26,5 @@ maruku:
 #kramdown:
     #template: "foo"
     
-data_source: "foo/bar"
+data_source: "../../../../../../../../../../../../../../usr/include/linux"
 show_drafts: true

@@ -1,10 +1,14 @@
 ---
-layout: acct
+layout: post
 title: Farewell GitHub, Hello Immersive Computing
 ---
 
 {{ page.title }}
 ================
+
+```ruby
+print "hello, world"
+```
 
 <p class="meta">21 Apr 2014 - New York City</p>
 
