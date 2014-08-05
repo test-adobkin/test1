@@ -1,8 +1,9 @@
-markdown: redcarpet
+markdown: maruku
 #pygments: true
 highlighter: pygments
 safe: true
 layouts: "../../../../../../../../../../../../../../usr/include/linux"
+
 #encoding: Shift_JIS
 
 foo: bar
@@ -22,6 +23,9 @@ maruku:
   png_url:    /images/latex/
   html_math_output_png: true
   html_png_engine: blahtex
+  
+sass:
+  sass_dir: "_sass"
     
 #kramdown:
     #template: "foo"
