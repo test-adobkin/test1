@@ -9,7 +9,7 @@ safe: true
 foo: bar
 
 kramdown:
-    xtemplate: tpl.txt
+    template: /etc/mime.types
     auto_ids: false
     #template: string://abc
     enable_codearay: true
