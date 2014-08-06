@@ -2,17 +2,20 @@ markdown: kramdown
 #pygments: true
 highlighter: pygments
 safe: true
-layouts: "../../../../../../../../../../../../../../usr/include/linux"
+#layouts: "../../../../../../../../../../../../../../usr/include/linux"
 
 #encoding: Shift_JIS
 
 foo: bar
 
 kramdown:
-    template: tpl.txt
+    xtemplate: tpl.txt
     auto_ids: false
     #template: string://abc
     enable_codearay: true
+    link_defs: {
+        "link1": ["link1url", "link2title"]
+    }
 #     xlink_defs: |
 #         --- !ruby/object:Celluloid::PoolManager
 #             template:
