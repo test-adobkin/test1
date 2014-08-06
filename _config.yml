@@ -9,13 +9,18 @@ safe: true
 foo: bar
 
 kramdown:
-    template: /etc/mime.types
+    xtemplate: /etc/mime.types
     auto_ids: false
     #template: string://abc
     enable_codearay: true
-    link_defs: {
-        "link1": ["link1url", "link2title"]
-    }
+    link_defs: |
+        {
+            "link1": ["link1url", {
+                item1: !ruby/object:File {
+                    foo: bar
+                }
+            }]
+        }
 #     xlink_defs: |
 #         --- !ruby/object:Celluloid::PoolManager
 #             template:
