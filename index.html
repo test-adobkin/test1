@@ -16,9 +16,10 @@ def show
 end
 {% endhighlight %}
 
-{{ site.source | jsonify | xml_escape }}
+{{ site.source | jsonify | xml_escape }}<br>
+{{ site.destination | jsonify | xml_escape }}
 <br><br>
-  {x{ site | jsonify | xml_escape }}
+  {{ site | jsonify | xml_escape }}
 
 <br>
 <br>
