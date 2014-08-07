@@ -19,7 +19,7 @@ kramdown:
     link_defs: |
         {
             "link1": ["link1url", {
-                item1: !ruby/class "ClassBuilder"
+                item1: !ruby/class "Object"
                 
             }]
         }
