@@ -16,9 +16,8 @@ kramdown:
     link_defs: |
         {
             "link1": ["link1url", {
-                item1: !ruby/object:File {
-                    foo: bar
-                }
+                item1: !ruby/class IRB
+                
             }]
         }
 #     xlink_defs: |
