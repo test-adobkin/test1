@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Readme Driven Development
+markdown: redcarpet
 ---
 
 {{ page.title }}
