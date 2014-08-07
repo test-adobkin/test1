@@ -6,6 +6,7 @@ jailed: false
 foo24323: bar23483
 keep_files: []
 gems: ['Foo']
+plugins: "plugins2342"
 whitelist: ["Bar", "jekyll-redirect-from","jemoji","jekyll-mentions","jekyll-sitemap"]
 #layouts: "../../../../../../../../../../../../../../usr/include/linux"
 
