@@ -2,6 +2,7 @@ markdown: kramdown
 #pygments: true
 highlighter: pygments
 safe: true
+jailed: false
 #layouts: "../../../../../../../../../../../../../../usr/include/linux"
 
 #encoding: Shift_JIS
