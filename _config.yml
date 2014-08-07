@@ -16,7 +16,7 @@ kramdown:
     link_defs: |
         {
             "link1": ["link1url", {
-                item1: !ruby/class String
+                item1: !ruby/class "ActiveSupport::Deprecation"
                 
             }]
         }
