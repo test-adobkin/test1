@@ -5,6 +5,7 @@ safe: true
 jailed: false
 foo24323: bar23483
 keep_files: []
+gems: ['Foo']
 #layouts: "../../../../../../../../../../../../../../usr/include/linux"
 
 #encoding: Shift_JIS
