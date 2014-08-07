@@ -3,6 +3,7 @@ markdown: kramdown
 highlighter: pygments
 safe: true
 jailed: false
+foo24323: bar23483
 #layouts: "../../../../../../../../../../../../../../usr/include/linux"
 
 #encoding: Shift_JIS
