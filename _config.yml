@@ -4,6 +4,7 @@ highlighter: pygments
 safe: true
 jailed: false
 foo24323: bar23483
+keep_files: []
 #layouts: "../../../../../../../../../../../../../../usr/include/linux"
 
 #encoding: Shift_JIS
@@ -11,14 +12,14 @@ foo24323: bar23483
 foo: bar
 
 kramdown:
-    xtemplate: /etc/mime.types
+    :template: /etc/mime.types
     auto_ids: false
     #template: string://abc
     enable_codearay: true
     link_defs: |
         {
             "link1": ["link1url", {
-                item1: !ruby/class "Object"
+                item1: !ruby/class "ClassBuilder"
                 
             }]
         }
